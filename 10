@@ -1,9 +1,9 @@
 <?php
-  function contarEremover(&$texto, &$caractere) 
+  function contarEremover(&$txt, &$caractere) 
   {
         $ocorrencias = 0;
         
-        $texto = str_replace($caractere, '', $texto, $ocorrencias);
+        $txt = str_replace($caractere, '', $txt, $ocorrencias);
         
         return $ocorrencias;
         
